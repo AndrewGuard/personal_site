@@ -1,0 +1,102 @@
+body {
+  height: 100%;
+  margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #FFFFFD;
+}
+
+.header-pic {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 5px solid #EEE;
+  width: 240px;
+  margin-top: 10px;
+  height: 240px;
+  width: 230px;
+}
+
+.students {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 5px solid #EEE;
+  width: 600px;
+  height: 251px;
+  z-index: 101;
+}
+
+.stylebox {
+  padding-bottom: 5px;
+}
+
+.content {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-left: 130px;
+}
+
+img {
+  margin-top: 10px;
+  height: 240px;
+  width: 220px;
+}
+
+.footer {
+  border-top: 1px solid #CCC;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+th {
+  text-align: center;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin: 0;
+}
+
+a:link {color: #145D9A; text-decoration: none; }
+a:active {color: #145D9A; text-decoration: none; }
+a:visited {color: #145D9A; text-decoration: none; }
+a:hover {color: #145D9A; text-decoration: none; }
+
+.post-content {
+  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.navbar {
+  padding-left: 5px;
+  padding-top: 150px;
+  position:fixed;
+  top:0;
+  left:0;
+  width: 106px;
+  height: 100%;
+  border-right: 2px solid #EEE;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  z-index: 100;
+}
