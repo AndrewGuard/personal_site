@@ -1,6 +1,4 @@
 RewriteEngine On
-
-RewriteRule index.html        home
-RewriteRule code.html         code
-RewriteRule travel.html       travel
-
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
